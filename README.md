@@ -29,6 +29,7 @@ O objetivo é automatizar o teste de login da aplicação **The Internet (Heroku
         # Relatórios de desempenho serão gerados aqui
     /drivers
         - chromedriver.exe  # WebDriver usado pelo Selenium
+```
         
 ## ⚠️ Problemas Conhecidos
 
