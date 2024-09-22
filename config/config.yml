@@ -1,0 +1,15 @@
+# config.yml
+
+jmeter:
+  num_threads: 50  # Número de usuários simultâneos simulados no JMeter
+  ramp_up_period: 30  # Tempo em segundos para "subir" os 50 usuários
+  loop_count: 1  # Número de vezes que cada usuário repete o teste
+  base_url: "https://the-internet.herokuapp.com"  # URL da aplicação a ser testada
+  login_path: "/login"  # Caminho para a página de login
+
+selenium:
+  browser: "chrome"  # Navegador a ser usado no Selenium
+  base_url: "https://the-internet.herokuapp.com/login"  # Página de login para o Selenium
+  username: "tomsmith"  # Nome de usuário para o login
+  password: "SuperSecretPassword!"  # Senha para o login
+  timeout: 10  # Timeout para esperar elementos da página
