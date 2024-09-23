@@ -20,7 +20,7 @@ O objetivo é automatizar o teste de login da aplicação **The Internet (Heroku
         - script_selenium.py  # Script para automação do login com Selenium
         - rodar_jmeter.py  # Script para execução de testes JMeter em modo headless
     /jmeter
-        - plano_teste.jmx  # Plano de teste JMeter (incompleto)
+        - plano_teste.jmx  # Plano de teste JMeter
     /config
         - config.yml  # Arquivo de configuração para parâmetros de teste
     /logs
