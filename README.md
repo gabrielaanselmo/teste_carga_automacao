@@ -15,7 +15,7 @@ O objetivo é automatizar o teste de login da aplicação **The Internet (Heroku
 ## 📂 Estrutura do Projeto
 
 ```bash
-/ProjetoDesempenhoAutomatizado
+/teste_carga_automacao
     /scripts
         - script_selenium.py  # Script para automação do login com Selenium
         - rodar_jmeter.py  # Script para execução de testes JMeter em modo headless
