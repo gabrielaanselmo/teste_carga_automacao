@@ -30,13 +30,3 @@ O objetivo é automatizar o teste de login da aplicação **The Internet (Heroku
     /drivers
         - chromedriver.exe  # WebDriver usado pelo Selenium
 ```
-        
-## ⚠️ Problemas Conhecidos
-
-- O JMeter ainda apresenta erros ao tentar simular o login na aplicação de teste. Investigando a causa, possivelmente relacionada ao manuseio de cookies ou headers de requisição.
-- O projeto está em desenvolvimento e algumas partes ainda precisam ser completadas.
-
-### 📅 Próximos Passos
-
-- Resolver os problemas no JMeter e finalizar a configuração dos testes de carga.
-- Melhorar os relatórios de desempenho.
